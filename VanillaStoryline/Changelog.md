@@ -15,3 +15,10 @@ v0.1.1
 	
 v0.1.2
 	Added Dread Lord
+	Added Ancient of War
+	Added Ogre
+	Added Ogre Mage
+	Added Dryad
+	Added Gnoll Caster
+	Added Orc Male Kid
+	Added Centaur Caster

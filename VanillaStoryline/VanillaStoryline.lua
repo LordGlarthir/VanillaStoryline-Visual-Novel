@@ -2727,14 +2727,14 @@ function storyline:UpdateModels()
 		--Screecher spirits
 	elseif model == "Creature\\WindSerpent\\WindSerpent" then storyline.NPC.PlayerFrame:SetPosition(0,0.5,1.0) 
 		--Spirit healer
-	elseif model == "Creature\\spirithealer\\SpiritHealer" then storyline.NPC.PlayerFrame:SetFacing(-0.9);storyline.NPC.PlayerFrame:SetPosition(0,-0.2,1.8);storyline.NPC.PlayerFrame:SetModelScale(0.24)
+	elseif model == "Creature\\spirithealer\\SpiritHealer" then storyline.NPC.PlayerFrame:SetFacing(-0.9);storyline.NPC.PlayerFrame:SetPosition(0,0.7,-1.35);storyline.NPC.PlayerFrame:SetModelScale(0.8)
 		--Playable Races
 	elseif model == "Character\\BloodElf\\Female\\BloodElfFemale" then storyline.NPC.PlayerFrame:SetPosition(0,0.28,-1.18);storyline.NPC.PlayerFrame:SetModelScale(1.4) -- ok	
 	elseif model == "Character\\BloodElf\\Male\\BloodElfMale" then storyline.NPC.PlayerFrame:SetPosition(0,0.25,-1.4);storyline.NPC.PlayerFrame:SetModelScale(1.5) -- o
 	elseif model == "Character\\Dwarf\\Female\\DwarfFemale" then storyline.NPC.PlayerFrame:SetPosition(0,0.2,-0.55);storyline.NPC.PlayerFrame:SetModelScale(1) -- ok
 	elseif model == "Character\\Dwarf\\Male\\DwarfMale" then storyline.NPC.PlayerFrame:SetPosition(0,0.15,-0.7);storyline.NPC.PlayerFrame:SetModelScale(1) -- ok
-	elseif model == "Character\\Gnome\\Female\\GnomeFemale" then storyline.NPC.PlayerFrame:SetPosition(0,0.1,-0.15);storyline.NPC.PlayerFrame:SetModelScale(0.7) -- ok
-	elseif model == "Character\\Gnome\\Male\\GnomeMale" then storyline.NPC.PlayerFrame:SetPosition(0,0.125,-0.15);storyline.NPC.PlayerFrame:SetModelScale(0.7) -- ok
+	elseif model == "Character\\Gnome\\Female\\GnomeFemale" then storyline.NPC.PlayerFrame:SetPosition(0,0.1,-0.15);storyline.NPC.PlayerFrame:SetModelScale(0.6) -- ok
+	elseif model == "Character\\Gnome\\Male\\GnomeMale" then storyline.NPC.PlayerFrame:SetPosition(0,0.125,-0.15);storyline.NPC.PlayerFrame:SetModelScale(0.6) -- ok
 	elseif model == "Character\\Goblin\\Female\\GoblinFemale" then storyline.NPC.PlayerFrame:SetPosition(0,0.18,-0.48);storyline.NPC.PlayerFrame:SetModelScale(0.9) --GoblinFemale
 	elseif model == "Character\\Goblin\\Male\\GoblinMale" then storyline.NPC.PlayerFrame:SetPosition(0,0.18,-0.31);storyline.NPC.PlayerFrame:SetModelScale(0.78) --GoblinMale
 	elseif model == "Character\\Human\\Female\\HumanFemale" then storyline.NPC.PlayerFrame:SetPosition(0,0.27,-0.89);storyline.NPC.PlayerFrame:SetModelScale(1.2) -- ok
@@ -2746,11 +2746,12 @@ function storyline:UpdateModels()
 	elseif model == "Character\\Scourge\\Female\\ScourgeFemale" then storyline.NPC.PlayerFrame:SetPosition(0, 0.3, -1.3);storyline.NPC.PlayerFrame:SetModelScale(1.5) --ScourgeFemale
 	elseif model == "Character\\Scourge\\Male\\ScourgeMale" then storyline.NPC.PlayerFrame:SetPosition(0, 0.125, -0.9);storyline.NPC.PlayerFrame:SetModelScale(1.2) --ScourgeMale
 	elseif model == "Character\\Tauren\\Female\\TaurenFemale" then storyline.NPC.PlayerFrame:SetPosition(0,0.5,-0.45);storyline.NPC.PlayerFrame:SetModelScale(1.1) --TaurenFemale
-	elseif model == "Character\\Tauren\\Male\\TaurenMale" then storyline.NPC.PlayerFrame:SetPosition(0,0.5,-0.6);storyline.NPC.PlayerFrame:SetModelScale(1.3) -- TaurenMale
+	elseif model == "Character\\Tauren\\Male\\TaurenMale" then storyline.NPC.PlayerFrame:SetPosition(0,0.5,-0.7);storyline.NPC.PlayerFrame:SetModelScale(1.4) -- TaurenMale
 	elseif model == "Character\\Troll\\Female\\TrollFemale" then storyline.NPC.PlayerFrame:SetPosition(0.0,0,-0.7);storyline.NPC.PlayerFrame:SetModelScale(1.2) -- TrollFemale
 	elseif model == "Character\\Troll\\Male\\TrollMale" then storyline.NPC.PlayerFrame:SetPosition(0, 0.37, -0.7);storyline.NPC.PlayerFrame:SetModelScale(1.2) -- TrollMale
 	-- Humanoids
 	elseif model == "Creature\\CrackElf\\CrackElfMale" then storyline.NPC.PlayerFrame:SetPosition(0,0.09,-1.13);storyline.NPC.PlayerFrame:SetModelScale(1.23) -- 
+	elseif model == "Creature\\Dryad\\Dryad" then storyline.NPC.PlayerFrame:SetFacing(-0.4);storyline.NPC.PlayerFrame:SetPosition(0,0.25,-1);storyline.NPC.PlayerFrame:SetModelScale(1.0)
 	elseif model == "Creature\\bloodelfguard\\highelfelfmale_guard" then storyline.NPC.PlayerFrame:SetFacing(-0.55);storyline.NPC.PlayerFrame:SetPosition(0,0.25,-1.4);storyline.NPC.PlayerFrame:SetModelScale(1.5) -- Alah'Thalas Sentinel
 	elseif model == "Creature\\Cryptlord\\CryptLord" then storyline.NPC.PlayerFrame:SetFacing(-0.55);storyline.NPC.PlayerFrame:SetPosition(0,0.25,-1.4);storyline.NPC.PlayerFrame:SetModelScale(1.5)
 	elseif model == "Creature\\Kaelthas_Broken\\Kael'ThasBroken" then storyline.NPC.PlayerFrame:SetFacing(-0.55);storyline.NPC.PlayerFrame:SetPosition(0,0.25,-1.4);storyline.NPC.PlayerFrame:SetModelScale(1.5)
@@ -2763,11 +2764,17 @@ function storyline:UpdateModels()
 	elseif model == "Creature\\HighElf\\HighElfFemale_Mage" then storyline.NPC.PlayerFrame:SetPosition(-0.9,0.8,0) -- ok
 	elseif model == "Creature\\HighElf\\HighElfFemale_Priest" then storyline.NPC.PlayerFrame:SetPosition(-0.9,0.8,0) -- ok
 	elseif model == "Creature\\HighElf\\HighElfFemale_Warrior" then storyline.NPC.PlayerFrame:SetPosition(-0.9,0.8,0) -- ok
-	elseif model == "Creature\\Ogre\\Ogre" then storyline.NPC.PlayerFrame:SetPosition(0,0.6,0.2) -- ok
+	elseif model == "Creature\\Ogre\\Ogre" then storyline.NPC.PlayerFrame:SetFacing(-0.7);storyline.NPC.PlayerFrame:SetPosition(0,0.45,-0.75);storyline.NPC.PlayerFrame:SetModelScale(1.2) -- ok
+	elseif model == "Creature\\OgreMage\\OgreMage" then storyline.NPC.PlayerFrame:SetFacing(-1);storyline.NPC.PlayerFrame:SetPosition(0,0.28,0);storyline.NPC.PlayerFrame:SetModelScale(0.8) -- Chok'Garok
 	elseif model == "Creature\\HumanMalePirateCaptain\\HumanMalePirateCaptain" then storyline.NPC.PlayerFrame:SetPosition(0,0.8,0.8);storyline.NPC.PlayerFrame:SetModelScale(1.2-(StorylineOptions.WindowScale-1)) --ok with scalebug
-	elseif model == "Creature\\Gnoll\\gnoll" then storyline.NPC.PlayerFrame:SetPosition(0,0.5,0.2);storyline.NPC.PlayerFrame:SetModelScale(0.95) -- ok	
-	--Varimathras
+	elseif model == "Creature\\Gnoll\\gnoll" then storyline.NPC.PlayerFrame:SetPosition(0,0.5,1.2);storyline.NPC.PlayerFrame:SetModelScale(1) -- ok	
+	elseif model == "Creature\\GnollCaster\\GnollCaster" then storyline.NPC.PlayerFrame:SetFacing(-0.55);storyline.NPC.PlayerFrame:SetPosition(0,0,0.7);storyline.NPC.PlayerFrame:SetModelScale(0.4) -- Gnoll Caster
+	elseif model == "Creature\\Centaur\\CentaurCaster" then storyline.NPC.PlayerFrame:SetFacing(-0.55);storyline.NPC.PlayerFrame:SetPosition(0,0.85,-0.4);storyline.NPC.PlayerFrame:SetModelScale(1)
 	-- Animals
+	elseif model == "Creature\\RidingWyvern\\ridingwyvern" then storyline.NPC.PlayerFrame:SetPosition(0, 0.2, -0.4);storyline.NPC.PlayerFrame:SetModelScale(0.9) -- ok
+	elseif model == "CREATURE\\Wyvern\\Wyvern_Mount" then storyline.NPC.PlayerFrame:SetPosition(0, 0.2, -0.4);storyline.NPC.PlayerFrame:SetModelScale(2) -- ok
+	elseif model == "CREATURE\\Wyvern\\Wyvern" then storyline.NPC.PlayerFrame:SetPosition(0, 0.2, -0.4);storyline.NPC.PlayerFrame:SetModelScale(2) -- ok
+	elseif model == "CREATURE\\EliteWyvern\\EliteWyvern" then storyline.NPC.PlayerFrame:SetPosition(0, 0.2, -0.4);storyline.NPC.PlayerFrame:SetModelScale(2) -- ok
 	elseif model == "Creature\\Chicken\\Chicken" then storyline.NPC.PlayerFrame:SetPosition(0, 0.2, -0.4);storyline.NPC.PlayerFrame:SetModelScale(0.75) -- ok
 	elseif model == "Creature\\Sheep\\Sheep" then storyline.NPC.PlayerFrame:SetPosition(0, 0.2, -0.4);storyline.NPC.PlayerFrame:SetModelScale(0.75) -- ok
 	elseif model == "Creature\\Sheep\\SheepBlack" then storyline.NPC.PlayerFrame:SetPosition(0, 0.2, -0.4);storyline.NPC.PlayerFrame:SetModelScale(0.7) -- ok
@@ -2777,8 +2784,11 @@ function storyline:UpdateModels()
 	elseif model == "Creature\\Hippogryph\\Hippogryph" then storyline.NPC.PlayerFrame:SetPosition(0, 0, -2);storyline.NPC.PlayerFrame:SetModelScale(0.5) -- ok
 	elseif model == "Creature\\Kodobeast\\KodoBeastPack" then storyline.NPC.PlayerFrame:SetPosition(0,0.2,2.6);storyline.NPC.PlayerFrame:SetModelScale(0.4) -- ok with scalebug
 	elseif model == "Creature\\DragonSpawn\\DragonSpawn" then storyline.NPC.PlayerFrame:SetPosition(0,2,1);storyline.NPC.PlayerFrame:SetModelScale(0.9-(StorylineOptions.WindowScale-1)) -- ok with scalebug
+	elseif model == "CREATURE\\DireWolf\\RidingDireWolf" then storyline.NPC.PlayerFrame:SetPosition(0, 0.2, -0.4);storyline.NPC.PlayerFrame:SetModelScale(1) -- ok
 	-- Monsters
-	elseif model == "Creature\\AncientOfWar\\AncientofWar" then storyline.NPC.PlayerFrame:SetPosition(0,1.8,1.8);storyline.NPC.PlayerFrame:SetModelScale(0.5)
+	elseif model == "Creature\\FlyingMachineCreature\\FlyingMachineCreature" then storyline.NPC.PlayerFrame:SetPosition(0,1.8,0.2);storyline.NPC.PlayerFrame:SetModelScale(0.1)
+	elseif model == "Creature\\Flyingmachinecreature_vehicle\\flyingmachinecreature_vehicle" then storyline.NPC.PlayerFrame:SetPosition(0,1.8,0.2);storyline.NPC.PlayerFrame:SetModelScale(0.1)
+	elseif model == "Creature\\AncientOfWar\\AncientofWar" then storyline.NPC.PlayerFrame:SetPosition(0,1.8,0.2);storyline.NPC.PlayerFrame:SetModelScale(0.6)
 	elseif model == "Creature\\Quillboar\\QuillBoar" then storyline.NPC.PlayerFrame:SetPosition(0,0,0.4);storyline.NPC.PlayerFrame:SetModelScale(1.2)
 	elseif model == "Creature\\Ghost\\Ghost" then storyline.NPC.PlayerFrame:SetPosition(0,0.5,1.9);storyline.NPC.PlayerFrame:SetModelScale(0.8) -- ok with scalebug
 	elseif model == "Creature\\FleshGolem\\FleshGolem" then storyline.NPC.PlayerFrame:SetPosition(0,2,-3.3); storyline.NPC.PlayerFrame:SetModelScale(2.8)-- ok with scalebug
@@ -2786,16 +2796,16 @@ function storyline:UpdateModels()
 	elseif model == "Creature\\Dreadlord\\DreadLord" then storyline.NPC.PlayerFrame:SetFacing(-1.2);storyline.NPC.PlayerFrame:SetPosition(0,1.5,-2.6);storyline.NPC.PlayerFrame:SetModelScale (2.5) -- ok with big scalebug
 	elseif model == "Creature\\WaterElemental\\WaterElemental" then storyline.NPC.PlayerFrame:SetPosition(0,0,1.5)
 	elseif model == "Creature\\Banshee\\Banshee" then storyline.NPC.PlayerFrame:SetPosition(0,0,0.2)
-	elseif model == "Creature\\Golem\\Golem" then storyline.NPC.PlayerFrame:SetPosition(0,0.5,1); storyline.NPC.PlayerFrame:SetModelScale(0.3)
-	elseif model == "Creature\\GolemHarvestStage2\\GolemHarvestStage2" then storyline.NPC.PlayerFrame:SetPosition(0,0.32,0.8); storyline.NPC.PlayerFrame:SetModelScale(0.35)
+	elseif model == "Creature\\Golem\\Golem" then storyline.NPC.PlayerFrame:SetPosition(0,0.5,1); storyline.NPC.PlayerFrame:SetModelScale(0.45)
+	elseif model == "Creature\\GolemHarvestStage2\\GolemHarvestStage2" then storyline.NPC.PlayerFrame:SetPosition(0,0.32,0.55); storyline.NPC.PlayerFrame:SetModelScale(0.35)
 	elseif model == "Creature\\GolemHarvest\\GolemHarvest" then storyline.NPC.PlayerFrame:SetPosition(0,0.5,1.8); storyline.NPC.PlayerFrame:SetModelScale(0.2)
 	elseif model == "Creature\\Goblin\\GoblinShredder" then storyline.NPC.PlayerFrame:SetPosition(0,0.5,2.5);storyline.NPC.PlayerFrame:SetModelScale(0.7)
 	elseif model == "Creature\\Infernal\\Infernal" then storyline.NPC.PlayerFrame:SetPosition(0,0.6,1.2	);storyline.NPC.PlayerFrame:SetModelScale(0.8-(StorylineOptions.WindowScale-1)) -- ok	with scalebug
 	-- Kids
-	elseif model == "Creature\\HumanFemaleKid\\HumanFemaleKid" then storyline.NPC.PlayerFrame:SetPosition(0,0.25,-1);storyline.NPC.PlayerFrame:SetModelScale(1.3)
-	elseif model == "Creature\\HumanMaleKid\\HumanMaleKid" then storyline.NPC.PlayerFrame:SetPosition(0,0.25,-1);storyline.NPC.PlayerFrame:SetModelScale(1.3)
-	elseif model == "Creature\\OrcFemaleKid\\OrcFemaleKid" then storyline.NPC.PlayerFrame:SetPosition(0,0.25,-1);storyline.NPC.PlayerFrame:SetModelScale(1.3)
-	elseif model == "Creature\\OrcMaleKid\\OrcMaleKid" then storyline.NPC.PlayerFrame:SetPosition(0,0.25,-1);storyline.NPC.PlayerFrame:SetModelScale(1.3)
+	elseif model == "Creature\\HumanFemaleKid\\HumanFemaleKid" then storyline.NPC.PlayerFrame:SetFacing(-1);storyline.NPC.PlayerFrame:SetPosition(0,0.25,-0.7);storyline.NPC.PlayerFrame:SetModelScale(1)
+	elseif model == "Creature\\HumanMaleKid\\HumanMaleKid" then storyline.NPC.PlayerFrame:SetFacing(-1);storyline.NPC.PlayerFrame:SetPosition(0,0.25,-0.7);storyline.NPC.PlayerFrame:SetModelScale(1)
+	elseif model == "Creature\\OrcFemaleKid\\OrcFemaleKid" then storyline.NPC.PlayerFrame:SetFacing(-1);storyline.NPC.PlayerFrame:SetPosition(0,0.25,-0.7);storyline.NPC.PlayerFrame:SetModelScale(1)
+	elseif model == "Creature\\OrcMaleKid\\OrcMaleKid" then storyline.NPC.PlayerFrame:SetFacing(-1);storyline.NPC.PlayerFrame:SetPosition(0,0.25,-0.7);storyline.NPC.PlayerFrame:SetModelScale(1)
 
 	end
 
